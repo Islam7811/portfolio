@@ -1,0 +1,89 @@
+.header {
+    height: 80px;
+    border-bottom: 1px solid #828282;
+}
+
+.header a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.header a:first-child {
+
+    font-weight: bold;
+    color: #070707;
+
+}
+
+.lang {
+    transform: rotate(-90deg);
+    margin: 0;
+}
+
+.aboutMe {
+    background-color: #F6F6F6;
+}
+
+.skillBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio {
+
+    margin-top: 200px;
+    flex-flow: column;
+    justify-content: center;
+
+
+}
+
+.h4 {
+    text-decoration: underline;
+}
+
+iframe {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.BigBlock {
+    background-color: #F6F6F6;
+}
+
+footer .btn {
+    background: #070707;
+    width: 170px !important;
+    height: 40px;
+    color: #F6F6F6;
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    flex-flow: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.qwerty {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+
+}
